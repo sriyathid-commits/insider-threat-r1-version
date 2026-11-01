@@ -1,0 +1,59 @@
+
+AI-POWERED INSIDER THREAT DETECTION
+AND AUTOMATED DIGITAL FORENSICS SYSTEM
+============================================================
+
+Dataset
+-------
+CERT Insider Threat Test Dataset R1
+
+Dataset characteristics
+-----------------------
+Unique users: 1,000
+User-day records: 334,905
+Forensic events: 2,990,365
+
+Risk distribution
+-----------------
+Low:      135,678
+Medium:   109,401
+High:     59,523
+Critical: 30,303
+
+Investigation priorities
+------------------------
+P1 - Immediate Investigation: 30,303
+
+Forensic events
+---------------
+LOGON: 309,765
+USB:   65,668
+HTTP:  2,614,932
+
+Investigation user-days
+-----------------------
+89,826
+
+Model
+-----
+Isolation Forest based behavioral anomaly detection.
+
+Behavioral modeling
+-------------------
+Personal behavioral baseline
+Role-aware behavioral baseline
+Behavioral deviation scoring
+Calibrated risk scoring
+Rule-based threat explanation
+
+Important interpretation
+------------------------
+The system identifies anomalous behavioral patterns and
+prioritizes cases for investigation. Risk scores do not
+represent confirmed malicious activity.
+
+The dataset is the synthetic CERT Insider Threat Test Dataset
+R1 and should not be interpreted as real employee/company data.
+
+Generated:
+2026-10-05 23:59:45

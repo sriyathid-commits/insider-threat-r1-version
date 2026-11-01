@@ -1,0 +1,98 @@
+
+======================================================================
+AI-POWERED INSIDER THREAT DETECTION
+AUTOMATED DIGITAL FORENSIC INVESTIGATION REPORT
+======================================================================
+
+REPORT INFORMATION
+----------------------------------------------------------------------
+
+Report Number        : R1-INV-0051
+Generated On         : 2026-11-01 22:03:57
+User ID              : AJA0220
+Investigation Date   : 2010-08-06
+Employee Role        : Engineer
+
+======================================================================
+1. RISK ASSESSMENT
+======================================================================
+
+Calibrated Risk Score : 99.9705886744002
+Risk Classification  : Critical
+Investigation Priority: P1 - Immediate Investigation
+
+======================================================================
+2. BEHAVIORAL ANALYSIS
+======================================================================
+
+Login Count                  : 3
+After-Hours Login            : 0
+USB Connections              : 1.0
+USB Disconnections           : 0.0
+After-Hours USB Activity     : 1.0
+Web Activity Count           : 200.0
+Unique Domains               : 50.0
+After-Hours Web Activity     : 190.0
+Unique Computers Used        : 1
+
+Work Duration (Minutes)      : 627.85
+Personal Anomaly Strength    : 2.316892627823604
+Role Anomaly Strength        : 7.092324282768337
+Behavioral Deviation Score   : 3.749522124307024
+
+======================================================================
+3. CORRELATED FORENSIC EVIDENCE
+======================================================================
+
+Total Forensic Events : 205
+
+LOGON Events          : 4
+USB Events            : 1
+HTTP Events           : 200
+
+Events Per Hour       : 12.81
+
+Forensic Summary:
+4 logon event(s); 1 USB event(s); 200 HTTP event(s); 205 total forensic events
+
+======================================================================
+4. INVESTIGATION TIMELINE
+======================================================================
+
+First Forensic Event : 2010-08-06 07:28:06
+Last Forensic Event  : 2010-08-06 23:28:25
+
+======================================================================
+5. DETECTED SUSPICIOUS INDICATORS
+======================================================================
+
+after-hours USB activity; 1 USB connection(s); unusually high web activity; large number of unique domains; after-hours web activity; strong deviation from personal behavior; behavior differs from role baseline; high overall behavioral deviation
+
+======================================================================
+6. INVESTIGATOR RECOMMENDATIONS
+======================================================================
+
+1. Review employee login activity.
+2. Examine USB connection and disconnection records.
+3. Investigate unusual web browsing activity.
+4. Compare behavior against personal historical patterns.
+5. Compare activity against the employee's role baseline.
+6. Preserve relevant forensic evidence.
+7. Conduct authorized investigation before drawing conclusions.
+
+======================================================================
+7. FINAL INVESTIGATION STATUS
+======================================================================
+
+Risk Level            : Critical
+Priority              : P1 - Immediate Investigation
+Investigation Required: 1
+
+NOTE:
+An elevated anomaly score indicates unusual behavior.
+It does not independently establish malicious intent.
+Human verification and additional evidence are required.
+
+======================================================================
+END OF INVESTIGATION REPORT
+======================================================================

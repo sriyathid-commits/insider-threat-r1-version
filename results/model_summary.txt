@@ -1,0 +1,48 @@
+
+MODEL SUMMARY
+============================================================
+
+Model:
+Isolation Forest
+
+Purpose:
+Unsupervised behavioral anomaly detection.
+
+Unit of analysis:
+User-day
+
+Behavioral features:
+- Login count
+- Logout count
+- After-hours login
+- Unique PCs
+- Work duration
+- USB connections
+- USB disconnections
+- After-hours USB
+- Web activity
+- Unique domains
+- After-hours web activity
+- Personal anomaly strength
+- Role anomaly strength
+- Behavioral deviation score
+
+Risk calibration:
+70% ML anomaly risk
+30% behavioral deviation percentile
+
+Risk thresholds:
+0-39     Low
+40-69    Medium
+70-89    High
+90-100   Critical
+
+Investigation priorities:
+P1: Risk >= 90
+P2: Risk >= 70
+P3: Risk >= 40
+P4: Risk < 40
+
+Important:
+This is an unsupervised anomaly-detection system.
+Anomaly flags and risk scores are not ground-truth labels.

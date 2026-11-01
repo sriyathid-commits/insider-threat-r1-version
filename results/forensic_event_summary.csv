@@ -1,0 +1,4 @@
+event_type,event_count,percentage
+HTTP,2614932,87.45
+LOGON,309765,10.36
+USB,65668,2.2

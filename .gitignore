@@ -1,0 +1,22 @@
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+results/security_report_*.csv
+# Large datasets
+dataset/extracted/
+dataset/processed/
+
+# Logs
+logs/
+
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+*.tmpresults/security_report_*.csv
+results/security_report_*.csv

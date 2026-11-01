@@ -1,0 +1,9 @@
+metric,value
+Total forensic events,2990365
+LOGON events,309765
+USB events,65668
+HTTP events,2614932
+Investigation user-days,89826
+Cases with forensic evidence,89826
+Total users,1000
+Total user-days,334905
